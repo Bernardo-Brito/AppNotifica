@@ -2,18 +2,29 @@
 //  LoginViewController.swift
 //  AppNotifica
 //
-//  Created by Dario Pintor on 14/10/22.
+//  Created by Bernardo Brito  22/11/22.
 //
 
 import Foundation
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    //MARK: -  Clouseres
+    var onRegisterTap: (() -> Void)?
+    
     //cria uma variável que é do tipo LoginView
-    var viewMain = LoginView()
+    lazy var loginView: LoginView = {
+        let loginView = LoginView()
+        loginView.onRegisterTap = {
+            self.onRegisterTap?()
+        }
+        
+        return loginView
+    }()
     
        override func loadView(){
-           self.view = viewMain
+           self.view = loginView
        }
        
     // é executado quando está carregando
