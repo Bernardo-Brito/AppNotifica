@@ -30,6 +30,7 @@
 		D910B1D5292FA2F9007B3CDA /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910B1D4292FA2F9007B3CDA /* ViewControllerDefault.swift */; };
 		D91F735E292666A100BE27EF /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F735D292666A100BE27EF /* UIColor+.swift */; };
 		D91F736D2926748B00BE27EF /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F736C2926748B00BE27EF /* ButtonDefault.swift */; };
+		D9279F9F29362969000DE0FF /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9279F9E29362969000DE0FF /* ViewDefault.swift */; };
 		D9DDB22E292CFE6300E442D6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB22D292CFE6300E442D6 /* RegisterView.swift */; };
 		D9DDB230292CFEA200E442D6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB22F292CFEA200E442D6 /* RegisterViewController.swift */; };
 		D9DDB232292CFEC800E442D6 /* RegisterCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB231292CFEC800E442D6 /* RegisterCoordenator.swift */; };
@@ -80,6 +81,7 @@
 		D910B1D4292FA2F9007B3CDA /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
 		D91F735D292666A100BE27EF /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		D91F736C2926748B00BE27EF /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		D9279F9E29362969000DE0FF /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
 		D9DDB22D292CFE6300E442D6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		D9DDB22F292CFEA200E442D6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D9DDB231292CFEC800E442D6 /* RegisterCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordenator.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				D9002BEA29267749009DB510 /* LabelDefault.swift */,
 				D9002BEC29267773009DB510 /* ImageDefault.swift */,
 				D910B1D4292FA2F9007B3CDA /* ViewControllerDefault.swift */,
+				D9279F9E29362969000DE0FF /* ViewDefault.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				415DFB5028FD604000D249D1 /* LoginCoordinator.swift in Sources */,
 				41239E8B28F840EA00D92C31 /* AppDelegate.swift in Sources */,
 				41239E9528F840EB00D92C31 /* AppNotifica.xcdatamodeld in Sources */,
+				D9279F9F29362969000DE0FF /* ViewDefault.swift in Sources */,
 				D910B1D1292FA232007B3CDA /* HomeView.swift in Sources */,
 				415DFB4E28FD604000D249D1 /* LoginView.swift in Sources */,
 				D9DDB232292CFEC800E442D6 /* RegisterCoordenator.swift in Sources */,
