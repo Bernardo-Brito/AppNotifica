@@ -24,6 +24,14 @@
 		D9002BE929267700009DB510 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9002BE829267700009DB510 /* TextFieldDefault.swift */; };
 		D9002BEB29267749009DB510 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9002BEA29267749009DB510 /* LabelDefault.swift */; };
 		D9002BED29267773009DB510 /* ImageDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9002BEC29267773009DB510 /* ImageDefault.swift */; };
+		D910862A2938CF0D0069A8E4 /* NovaOcorrenciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91086292938CF0D0069A8E4 /* NovaOcorrenciaView.swift */; };
+		D910862C2938CF350069A8E4 /* NovaOcorrenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910862B2938CF350069A8E4 /* NovaOcorrenciaViewController.swift */; };
+		D910862F2938CF740069A8E4 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910862E2938CF740069A8E4 /* TabbarController.swift */; };
+		D91086322938CFCB0069A8E4 /* SobreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91086312938CFCB0069A8E4 /* SobreView.swift */; };
+		D91086342938CFDE0069A8E4 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91086332938CFDE0069A8E4 /* SobreViewController.swift */; };
+		D91086362938D0680069A8E4 /* TabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91086352938D0680069A8E4 /* TabbarCoordinator.swift */; };
+		D91086382938D08A0069A8E4 /* SobreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91086372938D08A0069A8E4 /* SobreCoordinator.swift */; };
+		D910863A2938D0AA0069A8E4 /* NovaOcorrenciaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91086392938D0AA0069A8E4 /* NovaOcorrenciaCoordinator.swift */; };
 		D910B1CE292FA1CD007B3CDA /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910B1CD292FA1CD007B3CDA /* HomeCoordinator.swift */; };
 		D910B1D1292FA232007B3CDA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910B1D0292FA232007B3CDA /* HomeView.swift */; };
 		D910B1D3292FA246007B3CDA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910B1D2292FA246007B3CDA /* HomeViewController.swift */; };
@@ -75,6 +83,14 @@
 		D9002BE829267700009DB510 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
 		D9002BEA29267749009DB510 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
 		D9002BEC29267773009DB510 /* ImageDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDefault.swift; sourceTree = "<group>"; };
+		D91086292938CF0D0069A8E4 /* NovaOcorrenciaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaView.swift; sourceTree = "<group>"; };
+		D910862B2938CF350069A8E4 /* NovaOcorrenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaViewController.swift; sourceTree = "<group>"; };
+		D910862E2938CF740069A8E4 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		D91086312938CFCB0069A8E4 /* SobreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreView.swift; sourceTree = "<group>"; };
+		D91086332938CFDE0069A8E4 /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
+		D91086352938D0680069A8E4 /* TabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarCoordinator.swift; sourceTree = "<group>"; };
+		D91086372938D08A0069A8E4 /* SobreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreCoordinator.swift; sourceTree = "<group>"; };
+		D91086392938D0AA0069A8E4 /* NovaOcorrenciaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaCoordinator.swift; sourceTree = "<group>"; };
 		D910B1CD292FA1CD007B3CDA /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		D910B1D0292FA232007B3CDA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D910B1D2292FA246007B3CDA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +203,9 @@
 		415DFB4828FD603E00D249D1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D91086302938CFAD0069A8E4 /* Sobre */,
+				D910862D2938CF500069A8E4 /* Tabbar */,
+				D91086282938CEA20069A8E4 /* NovaOcorrencia */,
 				D910B1CF292FA211007B3CDA /* Home */,
 				D9DDB22C292CFE1F00E442D6 /* Register */,
 				D9DDB22B292CFE1400E442D6 /* Login */,
@@ -201,8 +220,37 @@
 				415DFB4D28FD604000D249D1 /* Coordinator.swift */,
 				D9DDB231292CFEC800E442D6 /* RegisterCoordenator.swift */,
 				D910B1CD292FA1CD007B3CDA /* HomeCoordinator.swift */,
+				D91086352938D0680069A8E4 /* TabbarCoordinator.swift */,
+				D91086372938D08A0069A8E4 /* SobreCoordinator.swift */,
+				D91086392938D0AA0069A8E4 /* NovaOcorrenciaCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D91086282938CEA20069A8E4 /* NovaOcorrencia */ = {
+			isa = PBXGroup;
+			children = (
+				D91086292938CF0D0069A8E4 /* NovaOcorrenciaView.swift */,
+				D910862B2938CF350069A8E4 /* NovaOcorrenciaViewController.swift */,
+			);
+			path = NovaOcorrencia;
+			sourceTree = "<group>";
+		};
+		D910862D2938CF500069A8E4 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D910862E2938CF740069A8E4 /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		D91086302938CFAD0069A8E4 /* Sobre */ = {
+			isa = PBXGroup;
+			children = (
+				D91086312938CFCB0069A8E4 /* SobreView.swift */,
+				D91086332938CFDE0069A8E4 /* SobreViewController.swift */,
+			);
+			path = Sobre;
 			sourceTree = "<group>";
 		};
 		D910B1CF292FA211007B3CDA /* Home */ = {
@@ -384,20 +432,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91086382938D08A0069A8E4 /* SobreCoordinator.swift in Sources */,
 				415DFB5128FD604000D249D1 /* Coordinator.swift in Sources */,
+				D910862F2938CF740069A8E4 /* TabbarController.swift in Sources */,
 				415DFB4F28FD604000D249D1 /* LoginViewController.swift in Sources */,
 				D910B1D5292FA2F9007B3CDA /* ViewControllerDefault.swift in Sources */,
 				D910B1D3292FA246007B3CDA /* HomeViewController.swift in Sources */,
+				D91086322938CFCB0069A8E4 /* SobreView.swift in Sources */,
 				D9002BEB29267749009DB510 /* LabelDefault.swift in Sources */,
 				D910B1CE292FA1CD007B3CDA /* HomeCoordinator.swift in Sources */,
 				41239E8F28F840EA00D92C31 /* ViewController.swift in Sources */,
 				D9DDB22E292CFE6300E442D6 /* RegisterView.swift in Sources */,
 				415DFB5028FD604000D249D1 /* LoginCoordinator.swift in Sources */,
+				D910862C2938CF350069A8E4 /* NovaOcorrenciaViewController.swift in Sources */,
 				41239E8B28F840EA00D92C31 /* AppDelegate.swift in Sources */,
+				D91086362938D0680069A8E4 /* TabbarCoordinator.swift in Sources */,
 				41239E9528F840EB00D92C31 /* AppNotifica.xcdatamodeld in Sources */,
+				D910862A2938CF0D0069A8E4 /* NovaOcorrenciaView.swift in Sources */,
 				D9279F9F29362969000DE0FF /* ViewDefault.swift in Sources */,
+				D910863A2938D0AA0069A8E4 /* NovaOcorrenciaCoordinator.swift in Sources */,
 				D910B1D1292FA232007B3CDA /* HomeView.swift in Sources */,
 				415DFB4E28FD604000D249D1 /* LoginView.swift in Sources */,
+				D91086342938CFDE0069A8E4 /* SobreViewController.swift in Sources */,
 				D9DDB232292CFEC800E442D6 /* RegisterCoordenator.swift in Sources */,
 				D9DDB230292CFEA200E442D6 /* RegisterViewController.swift in Sources */,
 				D9002BE929267700009DB510 /* TextFieldDefault.swift in Sources */,

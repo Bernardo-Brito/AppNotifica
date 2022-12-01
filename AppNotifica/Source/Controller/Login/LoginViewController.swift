@@ -42,9 +42,9 @@ class LoginViewController: ViewControllerDefault {
 //           self.navigationController?.navigationBar.prefersLargeTitles=true
 
        }
-//    @objc
-//    private func loginTap(){
-//        onLoginTap?()
-//    }
+    @objc
+    private func loginTap(){
+        onLoginTap?()
+    }
 
 }

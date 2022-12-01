@@ -31,6 +31,7 @@ class RegisterView: ViewDefault {
         let text = TextFieldDefault(placeholder: "Senha", keyBordType: .emailAddress, returnKeyType: .next)
         
         text.isSecureTextEntry = true;
+        text.textContentType = .oneTimeCode
         
         return text
          }()
@@ -39,6 +40,7 @@ class RegisterView: ViewDefault {
         let text = TextFieldDefault(placeholder: "Confirme sua Senha", keyBordType: .emailAddress, returnKeyType: .done)
         
         text.isSecureTextEntry = true;
+        text.textContentType = .oneTimeCode
         
         return text
          }()
