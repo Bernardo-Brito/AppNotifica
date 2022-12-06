@@ -2,7 +2,7 @@
 //  Coordinator.swift
 //  AppNotifica
 //
-//  Created by Dario Pintor on 14/10/22.
+// Created by IFB BIOTIC 21 on 14/10/22.
 //
 
 import Foundation

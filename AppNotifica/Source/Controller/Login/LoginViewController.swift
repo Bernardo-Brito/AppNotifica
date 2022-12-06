@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  AppNotifica
 //
-//  Created by Bernardo Brito  22/11/22.
+// Created by IFB BIOTIC 21 on  22/11/22.
 //
 
 import Foundation

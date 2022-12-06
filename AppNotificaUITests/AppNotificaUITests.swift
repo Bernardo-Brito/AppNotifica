@@ -2,7 +2,7 @@
 //  AppNotificaUITests.swift
 //  AppNotificaUITests
 //
-//  Created by Dario Pintor on 13/10/22.
+//  Created by IFB BIOTIC 21on 13/10/22.
 //
 
 import XCTest

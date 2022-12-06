@@ -11,7 +11,7 @@ import UIKit
 class SobreView: ViewDefault {
     //MARK: - Closures
     var imageLogin = ImageDefault(image: "ImageLogin")
-    var imageLabel = LabelDefault(text: "Aplicativo desenvolvido pelos professores do curso Desenvolvimento de aplicativos utilizando a linguagem Swift do IFB com intuito de permitir que ocorrências sejam registradas e acompanhadas, bem como solucionadas.", font: UIFont.systemFont(ofSize: 17, weight: .regular))
+    var imageLabel = LabelDefault(text: "Aplicativo desenvolvido pelos professores do curso Desenvolvimento de aplicativos utilizando a linguagem Swift e pelo aluno BERNARDO BRITO do IFB com intuito de permitir que ocorrências sejam registradas e acompanhadas, bem como solucionadas.", font: UIFont.systemFont(ofSize: 17, weight: .regular))
     
     //MARK: - Proports
     

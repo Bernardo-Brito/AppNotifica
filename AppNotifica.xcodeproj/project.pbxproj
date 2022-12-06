@@ -42,6 +42,7 @@
 		D9DDB22E292CFE6300E442D6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB22D292CFE6300E442D6 /* RegisterView.swift */; };
 		D9DDB230292CFEA200E442D6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB22F292CFEA200E442D6 /* RegisterViewController.swift */; };
 		D9DDB232292CFEC800E442D6 /* RegisterCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDB231292CFEC800E442D6 /* RegisterCoordenator.swift */; };
+		D9F279EC293F6FC000B0E643 /* EscolherImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F279EB293F6FC000B0E643 /* EscolherImagem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		D9DDB22D292CFE6300E442D6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		D9DDB22F292CFEA200E442D6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D9DDB231292CFEC800E442D6 /* RegisterCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordenator.swift; sourceTree = "<group>"; };
+		D9F279EB293F6FC000B0E643 /* EscolherImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolherImagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 			children = (
 				D91086292938CF0D0069A8E4 /* NovaOcorrenciaView.swift */,
 				D910862B2938CF350069A8E4 /* NovaOcorrenciaViewController.swift */,
+				D9F279EB293F6FC000B0E643 /* EscolherImagem.swift */,
 			);
 			path = NovaOcorrencia;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				415DFB4F28FD604000D249D1 /* LoginViewController.swift in Sources */,
 				D910B1D5292FA2F9007B3CDA /* ViewControllerDefault.swift in Sources */,
 				D910B1D3292FA246007B3CDA /* HomeViewController.swift in Sources */,
+				D9F279EC293F6FC000B0E643 /* EscolherImagem.swift in Sources */,
 				D91086322938CFCB0069A8E4 /* SobreView.swift in Sources */,
 				D9002BEB29267749009DB510 /* LabelDefault.swift in Sources */,
 				D910B1CE292FA1CD007B3CDA /* HomeCoordinator.swift in Sources */,
